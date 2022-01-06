@@ -1,0 +1,172 @@
+
+body{
+	font-family: 'Merriweather', serif;
+}
+/**{
+	margin: 0px;
+	padding: 0px;
+}*/
+ul,li{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 35px;
+}
+*{
+	border:none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	line-height: 1.4;
+}
+.title_color{
+	color: orange;
+}
+.ml-10{
+	margin-left: 10%;
+}
+.mt-10{
+	margin: 15px 0px;
+}
+.btn{
+	color:#fff;
+	background-color:#eb1809;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	display: inline-block;
+}
+.btn:hover{
+	background-color:#000;
+	transition: .5s;
+	cursor: pointer;
+}
+.flaxibla_container{
+	display: flex;
+	padding:3% 5%;
+}
+.half_width{
+	width: 50%;
+	
+}
+.half_width img{
+	width: 450px;
+	height: 450px;
+}
+.half_width h1{
+	border-left: 2px solid;
+	border-image: linear-gradient(red, #eb1809) 27;
+	border-image-slice: 1;
+	padding-left: 10px;
+}
+.mission_part h1{
+	text-align:center;
+}
+.one_third{
+	width: 33%;
+}
+
+.one_third img{
+	height: 100px;
+
+}
+.mission{
+	background-color: #aebcbd;
+	padding:20px 25px 25px 20px; 
+	border-radius: 10px;
+	margin-right: 50px;
+}
+.vission{
+	background-color: #dfe0ce;
+	padding:20px 25px 25px 20px; 
+	border-radius: 10px;
+	margin-right: 50px;
+}
+.goal{
+	background-color: #b8b467;
+	padding:20px 25px 25px 20px; 
+	border-radius: 10px;
+	margin-right: 10px;
+}
+.developed{
+	
+	background-image: url("image/shape-1.png");
+	background-repeat: no-repeat;
+	background-position:left center;
+	background-size: 180px 180px;
+	
+}
+.developed_desc{
+	padding: 0% 10% 5% 8%;
+}
+.developed_desc p{
+	padding-bottom: 30px;
+	line-height: 1.6;
+}
+.community{
+	margin-right: 100px;
+	background-image: url("image/shape-1.png");
+	background-repeat: no-repeat;
+	background-position:right bottom;
+	background-size: 150px 150px;
+}
+.web_design{
+	text-align: center;
+	background-color: #5d8783;
+	padding:40px 0px;
+	border-radius: 20px;
+	margin-right: 50px;
+	position: relative;
+}
+.web_design:hover {
+  transform: scale(1.1);
+  transition: 3s; 
+}
+.web_design ul li{
+	line-height: 1.5;
+}
+.web_design img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+.service h2{
+	text-align: center;
+	margin: 25px 0px;
+}
+.service_icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: -50px;
+}
+.service_icon img{
+	height: 80px;
+	width: 80px;
+}
+.footer{
+	background-color: black;
+	padding: 30px;
+
+}
+
+.footer h2{
+	color: #fff;
+	text-align: center;
+}
+.footer p{
+	color: #fff;
+	text-align: center;
+}
